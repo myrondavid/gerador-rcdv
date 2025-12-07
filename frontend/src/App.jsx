@@ -166,7 +166,7 @@ export default function App() {
                   name="gestor"
                   value={formData.gestor}
                   onChange={handleInputChange}
-                  placeholder="Nome do gestor..."
+                  placeholder="Gestor do projeto..."
                   className="w-full bg-slate-700/50 border border-slate-600 rounded-lg px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors"
                 />
               </div>
@@ -180,7 +180,7 @@ export default function App() {
                   name="contador"
                   value={formData.contador}
                   onChange={handleInputChange}
-                  placeholder="Nome do contador..."
+                  placeholder="Contador do projeto..."
                   className="w-full bg-slate-700/50 border border-slate-600 rounded-lg px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors"
                 />
               </div>
