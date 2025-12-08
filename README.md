@@ -91,7 +91,7 @@ cp .env.example .env
 
 ```bash
 cd backend
-python main.py
+uvicorn main:app --reload
 ```
 O servidor estará disponível em `http://localhost:8000`
 
